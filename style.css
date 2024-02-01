@@ -1,0 +1,115 @@
+/*Global Css*/
+*{
+   margin: 0;
+   padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    margin-top: 0;
+}
+/*Frist section*/
+.first-section{
+    background-image: url(images/img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   text-align: center;
+    background-attachment: fixed;
+    padding: 10rem 0;
+}
+
+
+.first-section h2{
+  font-size: 4rem;
+  margin: 10px 0;
+}
+.first-section p{
+    font-size: 2rem;
+}
+.global-btn{
+    background-color: black;
+    width: 100px;
+    height: 20px;
+    color: white;
+}
+/*second section*/
+.global-section{
+   padding: 3rem 0;
+   text-align: center                            ;
+   background-color: beige;
+   padding-bottom: 10px;
+  
+}
+.global-heading{
+   font-size: 50px;
+   margin-bottom: 8px;
+}
+.global-head-p{
+    color: #787878;
+    padding-bottom: 10px;
+}
+.about-main-div{
+    margin-top: 19px;
+
+}
+.about{
+    background-image: url(images/man.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 17rem 0;
+}
+.about h2{
+   margin-left: 940px;
+   padding-bottom: 20px;
+   font-size: 30px;
+}
+.about p{
+   margin-left: 900px;
+}
+.button{
+    margin-left: 900px;
+   margin-top: 30px;
+   padding: 5px 10px;
+   background-color: black;
+   color: white;
+}
+/*service section*/
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid-single-item{
+    padding: 50px;
+}
+.icon-size{
+    font-size: 45px;
+}
+.grid-single-item h2{
+    margin: 15px 0;
+}
+.grid-single-item p{
+    color: #787878;
+}
+/*work section*/
+.work-single-img{
+    width: 350px;
+    height: 235px;
+}
+/*testimonial section*/
+.testimonial-p{
+    color: black!important;
+    margin-top: 5px;
+}
+/*contact section*/
+.Contact-heading {
+    font-size: 55px;
+    
+}
+/* footer section*/
+footer{
+    background-color: black;
+    color: white;
+    height: 40px;
+    padding-top: 10px;
+}
